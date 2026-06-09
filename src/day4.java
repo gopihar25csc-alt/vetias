@@ -14,7 +14,7 @@
         System.out.println();
     }
 }*/
-    public static void main(String[]args){
+    /*public static void main(String[]args){
         int[][] atttendance ={
                 {0,1,0},
                 {1,0,0},
@@ -23,7 +23,7 @@
                 {0,0,0},
         };
         for(int row =0;row < atttendance.length;row++){
-            System.out.print("student"+(row+1)+":");
+            System.out.print("student"+(row+1) +":");
             for(int column = 0; column < atttendance[row].length;column++){
                 if(atttendance[row][column]==1){
                     System.out.println("class:"+(1+column)+":absent");
@@ -34,4 +34,12 @@
             }
             System.out.println();
         }
+    }*/
+void main() {
+    int result = multiply(5, 4);
+    System.out.println(result);
+    System.out.println(multiply(5, 5));
+}
+    public int multiply(int a,int b) {
+        return a * b;
     }
