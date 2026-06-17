@@ -19,7 +19,6 @@ public class Day11 {
                 person.put("hari", "89");
                 person.put("sharve", "78");
                 person.put("vijay","77");
-                System.out.println(person.get("percent"));
                 person.entrySet().forEach(entry -> {
                     System.out.println(entry.getKey() + " : " + entry.getValue());
                 });
