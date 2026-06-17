@@ -53,7 +53,7 @@ public class Day10 {
             public String toString(){
                 return "Name:"+name+
                         ",regno:"+regno+
-                        ", Marks:"+marks;
+                        ",Marks:"+marks;
             }}
         public class Day10{
             static void main(){
